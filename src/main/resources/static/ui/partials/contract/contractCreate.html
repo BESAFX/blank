@@ -113,6 +113,7 @@
                                     </strong>
                                 </label>
                                 <ui-select id="customer"
+                                           ng-disabled="!contract.seller.id"
                                            ng-model="contract.customer"
                                            required="required"
                                            disable-validation-message=""
@@ -172,6 +173,7 @@
                                     </strong>
                                 </label>
                                 <ui-select id="sponsor1"
+                                           ng-disabled="!contract.customer.id"
                                            ng-model="contract.sponsor1"
                                            theme="bootstrap">
                                     <ui-select-match placeholder="الحقل اختياري">
@@ -225,6 +227,7 @@
                                     </strong>
                                 </label>
                                 <ui-select id="sponsor2"
+                                           ng-disabled="!contract.sponsor1.id"
                                            ng-model="contract.sponsor2"
                                            theme="bootstrap">
                                     <ui-select-match placeholder="الحقل اختياري">

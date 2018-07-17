@@ -120,4 +120,16 @@
             </export>
         </exportFonts>
     </fontFamily>
+    <fontFamily name="Adobe Arabic">
+        <normal>fonts/AdobeArabic-Regular.otf</normal>
+        <bold>fonts/AdobeArabic-Bold.otf</bold>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+        <exportFonts>
+            <export key="net.sf.jasperreports.html">'Adobe Arabic', 'Times New Roman', Times, serif
+            </export>
+            <export key="net.sf.jasperreports.xhtml">'Adobe Arabic', 'Times New Roman', Times, serif
+            </export>
+        </exportFonts>
+    </fontFamily>
 </fontFamilies>
